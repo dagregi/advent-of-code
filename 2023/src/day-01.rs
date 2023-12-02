@@ -16,5 +16,5 @@ treb7uchet";
     // You are the dumbest person!!!
     let fsum: u32 = nums.iter().map(|v| v.first().unwrap()).sum();
     let lsum: u32 = nums.iter().map(|v| v.last().unwrap()).sum();
-    println!("{} {}", fsum, lsum);
+    println!("{}", fsum * 10 + lsum);
 }
